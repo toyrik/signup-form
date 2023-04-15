@@ -50,6 +50,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                '<url:(.*)>' => 'site/index',
             ],
         ],
     ],

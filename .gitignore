@@ -34,3 +34,8 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+/node_modules
+
+# build files
+/web/js/app.js
+/web/mix-manifest.json
